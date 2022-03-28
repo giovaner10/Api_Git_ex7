@@ -3,6 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
 Fazendo requisições HTTP no Angular, crie uma aplicação que faça pesquisa de usuários do Github utilizando a api oficial do githib.
 
+# Enunciado
 
 Faça um campo para pesquisar o usuário pelo seu username e um botão para fazer a pesquisa. Ao clicar, ele mostrará um Dialog do Material com os dados do usuário, como foto de perfil, descrição, quantidade de seguidores, quantas pessoas o usuário está seguindo e qualquer outro dado que você desejar.
 
