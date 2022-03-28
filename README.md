@@ -13,6 +13,12 @@ Veja o exemplo de uso da API oficial do github nos links abaixo
 
 Crie um arquivo README.md no seu repostório e nele coloque fotos da sua aplicação funcionando
 
+## :framed_picture: Fotos do projeto
+
+ ![foto](https://github.com/giovaner10/templete_angular/blob/main/udmemy%20-%20jogo%20da%20velha/1.png)
+ ![foto](https://github.com/giovaner10/templete_angular/blob/main/udmemy%20-%20jogo%20da%20velha/2.png)
+ ![foto](https://github.com/giovaner10/templete_angular/blob/main/udmemy%20-%20jogo%20da%20velha/3.png)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
