@@ -1,0 +1,13 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e7dce97e;
+  }
+  
+  .container .search{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  }

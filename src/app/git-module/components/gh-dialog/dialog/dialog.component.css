@@ -1,0 +1,78 @@
+.perfil{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+}
+header img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+    margin-top: 250px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.principal{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.dados{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;    
+    font-size: x-large;
+}
+
+.dados h6{
+    width: 200px;
+    text-align: center;
+    line-height: 2;
+}
+
+#prin {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+
+
+ul{
+  height: 100px;
+  width: 100%;
+  align-self: flex-start;
+}
+
+li{
+    box-shadow: 2px 5px 5px black;
+    list-style-type: none;
+
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+}
+
+#infoRepos{
+    display: flex;
+    flex-wrap: wrap;
+}

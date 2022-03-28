@@ -1,0 +1,39 @@
+<h2 mat-dialog-title>Dados de {{username}}</h2>
+<section mat-dialog-content id="prin">
+    <mat-spinner *ngIf="user == null">Aguardando consulta</mat-spinner>
+
+
+    <section class="perfil" *ngIf="user != null">
+        <header>
+            <img [src]="user?.avatar_url" alt="">
+            <h3><a [href]="user?.html_url">{{user?.login}}</a></h3>
+            <h5>{{user?.bio}}</h5>
+        </header>
+
+        <main class="principal" > 
+            <section class="dados">
+                <h6> id da conta <br> {{user?.id}}</h6>
+                <h6>Criou a conta em <br> {{user?.created_at | date}}</h6>
+                <h6>Sua localização <br>{{user?.location}}</h6>
+            </section>
+            <section class="dados">
+                <h6>Seguindo <br> {{user?.followers}}</h6>
+                <h6>Seguido por <br>{{user?.following}}</h6>
+                <h6> Repositorios publicos <br> {{user?.public_repos}}</h6>
+            </section>
+
+        </main>
+    </section>
+
+    <ul>
+        <h3>Lista de repositorios:</h3>
+        <section id="infoRepos">
+            <li *ngFor="let item of ListRepositorys">
+                <p>{{item.name}}  <br><mat-icon>star_half</mat-icon>: {{item.stargazers_count}}</p>
+                <button mat-button><a [href]="item.html_url" target="_blank">Clique para acessar no git</a></button>
+            </li>
+        </section>
+    </ul>
+
+   
+</section>
