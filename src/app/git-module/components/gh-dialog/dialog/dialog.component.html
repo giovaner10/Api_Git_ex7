@@ -29,7 +29,7 @@
         <h3>Lista de repositorios:</h3>
         <section id="infoRepos">
             <li *ngFor="let item of ListRepositorys">
-                <p>{{item.name}}  <br><mat-icon>star_half</mat-icon>: {{item.stargazers_count}}</p>
+                <p>{{item.name}}  <br><mat-icon>star_half</mat-icon>: {{item.stargazers_count}} {{item.language}}</p>
                 <button mat-button><a [href]="item.html_url" target="_blank">Clique para acessar no git</a></button>
             </li>
         </section>
