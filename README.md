@@ -16,7 +16,7 @@ Crie um arquivo README.md no seu repost√≥rio e nele coloque fotos da sua aplica√
 ## :framed_picture: Fotos do projeto
 
  ![foto](https://github.com/giovaner10/templete_angular/blob/main/proj%207/3.png)
- ![foto](https://github.com/giovaner10/templete_angular/blob/main/proj%207/4.png)
+ ![foto](https://github.com/giovaner10/templete_angular/blob/main/proj%207/22.png)
  ![foto](https://github.com/giovaner10/templete_angular/blob/main/proj%207/5.png)
  ![foto](https://github.com/giovaner10/templete_angular/blob/main/proj%207/1.png)
  ![foto](https://github.com/giovaner10/templete_angular/blob/main/proj%207/2.png)
